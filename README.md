@@ -8,6 +8,9 @@
 - [Description](#description)
 - [Functional Requirements](#functional-requirements)
 - [Technical requirements](#technical-requirements)
+- [Database Schema](#database-schemas)
+  - [Entity Relationship Diagram](#entity-relationship-diagram)
+  - [Logic Diagram of Data](#logic-diagram-of-data)
 - [API Documentation](#api-documentation)
 - [Install](#technical-requirements)
 - [Run](#run-in-docker-container)
@@ -44,9 +47,8 @@ The system should consider doctor availability, patient load, and appointment du
 | Doctor registration        | Register a new Doctor. |
 | Doctor profile Management  | Retrieve/update patient profile information. |
 | Doctor availability        | Set/Update availability for doctor |
-<!-- | **Availability  and Scheduling** |           | -->
 | Availability Check |  Check doctor's availability |
-
+<!-- | **Availability  and Scheduling** |           | -->
 
 
 ## Technical requirements
@@ -57,6 +59,17 @@ The system should consider doctor availability, patient load, and appointment du
 - Docker -->
 
 ---
+
+## Database Schemas
+
+
+### Entity Relationship Diagram
+
+![Entity Relationship Diagram](/images/DER.png)
+
+### Logic Diagram of Data
+
+![Logic Diagram of Data](/images/DLD.png)
 
 ## Base URL
 
